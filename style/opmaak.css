@@ -10,6 +10,11 @@ body {
   background: grey url("../imagesHTMLCSS2/greyrepeat.jpg") repeat;
 }
 
+.wrapper {
+  width: 960px;
+}
+
+
 header {
   background-image:url('../imagesHTMLCSS2/Peculiar Page head.png');
   width: 960px;
