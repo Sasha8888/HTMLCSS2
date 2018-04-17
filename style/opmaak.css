@@ -14,25 +14,24 @@ body {
   width: 960px;
 }
 
-
 header {
   background-image:url('../imagesHTMLCSS2/Peculiar Page head.png');
   width: 960px;
   height: 150px;
-}
-
-header h1 {
-  font-size: 300%;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
-  text-align: right;
-  text-shadow: 5px 5px 7px #000000;
+  position:
+  fixed;
+    top: 0px;
+    left: 0px;
 }
 
 ul {
   background: #080808;
   width: 940px;
   padding: 10px;
+    position:
+  fixed;
+    top: 150px;
+    left: 0px;
 }
 
 ul li {
@@ -50,10 +49,15 @@ ul li a {
 ul li a:hover {
   color: #C0C0C0;
 }
+
 section {
   padding: 5px;
   margin: 5px;
   border: solid 4px red;
+  max-width: 940px;
+  position:absolute;
+    top: 185px;
+    left: 0px;
 }
 
 section article {
@@ -64,8 +68,20 @@ section article {
   background: black;
 }
 
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: right;
+  text-shadow: 5px 5px 7px #000000;
+}
+
 footer {
   background: #F0F0F0;
+  width: inherit;
+  position:fixed;
+    top: 681px;
+    left: 0px;
 }
 
 footer h3 {
