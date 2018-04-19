@@ -24,6 +24,16 @@ header {
     left: 0px;
 }
 
+header:hover {
+  background-image:url('../imagesHTMLCSS2/Peculair Page head_hover.png');
+  width: 960px;
+  height: 150px;
+  position:
+  fixed;
+    top: 0px;
+    left: 0px;
+}
+
 ul {
   background: #080808;
   width: 940px;
@@ -46,8 +56,32 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  color: #C0C0C0;
+ul li:link{
+  background: #787878;
+  padding: 10px #787878;
+}
+
+ul li:hover{
+
+  background: red;
+  padding: 10px red;
+}
+
+ul li:active{
+  background: red;
+  padding: 10px red;
+}
+
+a:link{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+a:active{
+  color: black;
 }
 
 section {
@@ -74,6 +108,13 @@ header h1 {
   color: black;
   text-align: right;
   text-shadow: 5px 5px 7px #000000;
+}
+
+section:hover{
+  background: blue;
+}
+section article:hover{
+  background: red;
 }
 
 footer {
