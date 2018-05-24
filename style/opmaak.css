@@ -6,7 +6,7 @@
 
 body {
   color: rgb(255, 255, 255);
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-family: 'Press Start 2P', Verdana, Arial, Helvetica, sans-serif;
   background: grey url("../imagesHTMLCSS2/greyrepeat.jpg") repeat;
 }
 
@@ -22,6 +22,7 @@ header {
   fixed;
     top: 0px;
     left: 0px;
+  z-index: 10;
 }
 
 header:hover {
@@ -32,6 +33,7 @@ header:hover {
   fixed;
     top: 0px;
     left: 0px;
+  z-index: 10;
 }
 
 ul {
@@ -42,6 +44,7 @@ ul {
   fixed;
     top: 150px;
     left: 0px;
+  z-index: 9;
 }
 
 ul li {
@@ -117,12 +120,21 @@ section article:hover{
   background: red;
 }
 
+.badgeboard{
+  position: relative;
+    top: 185px;
+    left: 0px;
+  z-index: 1;
+}
+
 footer {
   background: #F0F0F0;
   width: inherit;
+  border: 2px solid white;
   position:fixed;
     top: 681px;
     left: 0px;
+  z-index: 8;
 }
 
 footer h3 {
